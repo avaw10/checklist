@@ -1,0 +1,217 @@
+div {
+  margin: 1rem 0rem;
+}
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 1200px;
+  }
+  .reviewsection {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.5rem;
+  }
+}
+.action {
+  background-image: linear-gradient(url("../../public/Images/bback.jpeg"));
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+}
+.image {
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  color: black;
+  position: relative;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 50px;
+  font-weight: 550;
+  line-height: 62px;
+}
+
+h2 {
+  color: black;
+  position: relative;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 32px;
+  padding: 20px;
+}
+
+.sign {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  border: 1px solid black;
+  padding: 14px 34px;
+  font-size: 14px;
+  background: transparent;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+}
+
+.sign:hover {
+  border: 1px solid black;
+  background: rgb(130, 210, 241);
+  transition: 1s;
+}
+
+/* About Us */
+.about {
+  margin: 0px auto;
+  text-align: center;
+  border: 3px solid rgb(130, 210, 241);
+  background: transparent;
+  padding: 40px 20px;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+h4 {
+  color: black;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 25px;
+  padding: 10px;
+}
+
+/* Reviews */
+.reviews {
+  text-align: center;
+  border: 3px solid rgb(130, 210, 241);
+  background: transparent;
+  padding: 40px 20px;
+}
+
+h5 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+h6 {
+  color: black;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 25px;
+  padding: 10px;
+}
+
+.reviewsection {
+  display: grid;
+}
+
+.claire {
+  flex-basis: 31%;
+  background: rgb(130, 210, 241);
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+h7 {
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+p {
+  text-align: center;
+  font-weight: 300;
+  margin: 10px 0;
+}
+
+.pilar {
+  flex-basis: 31%;
+  background: rgb(130, 210, 241);
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+h8 {
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+p {
+  text-align: center;
+  font-weight: 300;
+  margin: 10px 0;
+}
+
+.sarah {
+  flex-basis: 31%;
+  background: rgb(130, 210, 241);
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+h9 {
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+p {
+  text-align: center;
+  font-weight: 300;
+  margin: 10px 0;
+}
+
+.claire:hover {
+  box-shadow: 0 0 20px 0px rgba(2, 52, 82, 0.966);
+}
+
+.pilar:hover {
+  box-shadow: 0 0 20px 0px rgba(2, 52, 82, 0.966);
+}
+
+.sarah:hover {
+  box-shadow: 0 0 20px 0px rgba(2, 52, 82, 0.966);
+}
+
+/* Leave Review */
+.reviewbox {
+  border: 3px solid rgb(130, 210, 241);
+  padding: 50px 20px;
+}
+
+p {
+  text-align: left;
+}
+
+.reviewbox input,
+.reviewbox textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  background: #eeebeb;
+}
+.reviewbox button {
+  margin: 20px 0;
+  padding: 10px 10px;
+  color: black;
+}
+
+.reviewbox button:hover {
+  border: 1px solid black;
+  background: rgb(130, 210, 241);
+  transition: 1s;
+}

@@ -1,0 +1,63 @@
+div {
+  margin: 1rem 0rem;
+}
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+.intro {
+  margin-top: 30px;
+  border: 3px solid rgb(130, 210, 241);
+  padding: 14px 34px;
+  background: transparent;
+  cursor: pointer;
+  display: block;
+}
+
+.picture {
+  background-image: url("../../public/Images/money.png");
+  background-position: center;
+  margin-top: 2px;
+  height: 260px;
+  width: 420px;
+}
+
+.moneyCol {
+  flex-basis: 24%;
+  background: rgb(130, 210, 241);
+  border-radius: 10px;
+  margin-bottom: 10%;
+  padding: 35px 310px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  text-align: center;
+}
+
+h21 {
+  font-size: 50px;
+  font-weight: 520;
+}
+h22 {
+  font-weight: 375;
+  margin: 10px 0;
+  font-size: 20px;
+}
+h23 {
+  font-weight: 800;
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+p {
+  font-weight: 300;
+  margin: 10px 0;
+}
+
+.moneyCol:hover {
+  box-shadow: 0 0 20px 0px rgba(2, 52, 82, 0.966);
+}
