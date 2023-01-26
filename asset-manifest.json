@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/avaw10.github.io/checklist/static/css/main.0c5e6976.css",
+    "main.js": "/avaw10.github.io/checklist/static/js/main.9de474d3.js",
+    "static/media/furn.png": "/avaw10.github.io/checklist/static/media/furn.6bf89d1c54c58a2b5a91.png",
+    "static/media/UserProfile.png": "/avaw10.github.io/checklist/static/media/UserProfile.aee0ae7a60efc9155361.png",
+    "static/media/cleaningtab.png": "/avaw10.github.io/checklist/static/media/cleaningtab.ebc06157976404195f6a.png",
+    "static/media/bback.jpeg": "/avaw10.github.io/checklist/static/media/bback.776c5acfada7a2e4813b.jpeg",
+    "static/media/money.png": "/avaw10.github.io/checklist/static/media/money.7dd08cd3554a69a065a6.png",
+    "index.html": "/avaw10.github.io/checklist/index.html",
+    "main.0c5e6976.css.map": "/avaw10.github.io/checklist/static/css/main.0c5e6976.css.map",
+    "main.9de474d3.js.map": "/avaw10.github.io/checklist/static/js/main.9de474d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c5e6976.css",
+    "static/js/main.9de474d3.js"
+  ]
+}
